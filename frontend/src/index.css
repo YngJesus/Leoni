@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f1f5f9;
+}
+
+.app-toast {
+  position: fixed;
+  right: 1.25rem;
+  top: 1.25rem;
+  z-index: 60;
+  min-width: min(22rem, calc(100vw - 2rem));
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  border-radius: 1rem;
+  padding: 0.85rem 1rem;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.18);
+  backdrop-filter: blur(10px);
+  animation: toast-in 0.22s ease-out;
+}
+
+.app-toast-success {
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  background: rgba(236, 253, 245, 0.96);
+}
+
+.app-toast-error {
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  background: rgba(254, 242, 242, 0.96);
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.triage-form {
+  font-size: 0.875rem;
+}
+
+.triage-form input,
+.triage-form textarea,
+.triage-form select {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.9rem;
+  background: #ffffff;
+  color: #0f172a;
+  padding: 0.7rem 0.8rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.04);
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.triage-form input:hover,
+.triage-form textarea:hover,
+.triage-form select:hover {
+  border-color: #94a3b8;
+}
+
+.triage-form input:focus,
+.triage-form textarea:focus,
+.triage-form select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+  outline: none;
+}
+
+.triage-form textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.triage-form table th,
+.triage-form table td {
+  vertical-align: top;
+}
+
+.triage-form .section-panel {
+  border-radius: 1.1rem;
+  border: 1px solid #e2e8f0;
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+}
+
+.triage-form .section-tag {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9999px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  background: rgba(37, 99, 235, 0.08);
+  color: #1d4ed8;
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.page-enter {
+  animation: page-enter 0.28s ease-out;
+}
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 7mm;
+  }
+
+  html,
+  body {
+    background: white !important;
+    color: black !important;
+    overflow: visible !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  header,
+  .sticky {
+    position: static !important;
+  }
+
+  main,
+  main > div,
+  form,
+  .print-form {
+    max-width: none !important;
+    width: 100% !important;
+    box-shadow: none !important;
+    animation: none !important;
+  }
+
+  fieldset,
+  fieldset[disabled],
+  .opacity-70,
+  .opacity-50,
+  .opacity-40 {
+    opacity: 1 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color: black !important;
+    background: white !important;
+    border: 1px solid #0f172a !important;
+    box-shadow: none !important;
+    print-color-adjust: exact !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+
+  table {
+    page-break-inside: auto;
+  }
+
+  tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

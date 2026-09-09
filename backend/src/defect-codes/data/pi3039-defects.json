@@ -1,0 +1,2201 @@
+{
+  "document": "PI3039",
+  "revision": "05.26",
+  "title": {
+    "de": "Fehlerkatalog",
+    "en": "Failure catalogue",
+    "fr": "Bible des défauts"
+  },
+  "categories": [
+    {
+      "code": "0",
+      "name": {
+        "de": "Schneiden",
+        "en": "Cutting",
+        "fr": "Coupe"
+      },
+      "defects": [
+        {
+          "code": "000",
+          "de": "Falsche Farbe",
+          "en": "Wrong colour",
+          "fr": "Mauvaise couleur"
+        },
+        {
+          "code": "001",
+          "de": "Querschnitt zu klein",
+          "en": "Cross-section too small",
+          "fr": "Section trop petite"
+        },
+        {
+          "code": "002",
+          "de": "Querschnitt zu groß",
+          "en": "Cross-section too large",
+          "fr": "Section trop grande"
+        },
+        {
+          "code": "003",
+          "de": "Falscher (Leitung / Schlauch) typ",
+          "en": "Wrong (wire / tube) type",
+          "fr": "Mauvais composant (file / gaine)"
+        },
+        {
+          "code": "004",
+          "de": "Fehlende Einzeldrähte",
+          "en": "Single strands cut-off missing",
+          "fr": "Brin cuivre coupé manquant"
+        },
+        {
+          "code": "005",
+          "de": "Unsauber abisoliert/abgemantelt",
+          "en": "Insulation not stripped properly",
+          "fr": "Dénudage ou dégainage non fait correctement"
+        },
+        {
+          "code": "006",
+          "de": "Isolation beschädigt",
+          "en": "Insulation damaged",
+          "fr": "Isolation endommagée"
+        },
+        {
+          "code": "007",
+          "de": "Leitung beschädigt",
+          "en": "Wire damaged",
+          "fr": "Fil endommagé"
+        },
+        {
+          "code": "008",
+          "de": "Maß zu kurz",
+          "en": "Measure too short",
+          "fr": "Mesure trop courte"
+        },
+        {
+          "code": "009",
+          "de": "Maß zu lang",
+          "en": "Measure too long",
+          "fr": "Mesure trop longue"
+        },
+        {
+          "code": "010",
+          "de": "Abisolierlänge zu kurz",
+          "en": "Strip length too short",
+          "fr": "Longueur dénudage trop courte"
+        },
+        {
+          "code": "011",
+          "de": "Abisolierlänge zu lang",
+          "en": "Strip length too long",
+          "fr": "Longueur dénudage trop longue"
+        },
+        {
+          "code": "012",
+          "de": "Bedruckung falsch",
+          "en": "Printing wrong",
+          "fr": "Marquage faux / non-conforme"
+        },
+        {
+          "code": "013",
+          "de": "Bedruckung fehlt",
+          "en": "Printing missing",
+          "fr": "Marquage manquant"
+        },
+        {
+          "code": "014",
+          "de": "Bedruckung nicht auf Maß",
+          "en": "Printing dimensions wrong",
+          "fr": "Dimension identification non-conforme (NC)"
+        },
+        {
+          "code": "015",
+          "de": "Bedruckung nicht lesbar",
+          "en": "Printing not clear",
+          "fr": "Impression non lisible"
+        },
+        {
+          "code": "016",
+          "de": "Haftsitz n. i. O.",
+          "en": "Insulation tensile force not o.k.",
+          "fr": "Force d'adhésion de l'isolant NC"
+        },
+        {
+          "code": "017",
+          "de": "Abmantellänge zu kurz",
+          "en": "Dismantling length too short",
+          "fr": "Longueur dégainage trop courte"
+        },
+        {
+          "code": "018",
+          "de": "Abmantellänge zu lang",
+          "en": "Dismantling length too long",
+          "fr": "Longueur dégainage trop longue"
+        },
+        {
+          "code": "019",
+          "de": "Abisolierung nicht kerbfrei oder korrekt",
+          "en": "Strip not free of notches or not correct",
+          "fr": "Partie dénudée avec entaille ou non conforme"
+        },
+        {
+          "code": "020",
+          "de": "Schlaglänge n.i.O.",
+          "en": "Lay lenght not o.k.",
+          "fr": "Pas de torsadage non conforme"
+        },
+        {
+          "code": "021",
+          "de": "Aufrauhung n.i.O.",
+          "en": "Roughening not o.k.",
+          "fr": "Coupe non conforme"
+        },
+        {
+          "code": "022",
+          "de": "Litzen beschädigt",
+          "en": "Conductor damaged",
+          "fr": "Cuivre endommagé"
+        },
+        {
+          "code": "023",
+          "de": "Querschnitt schief",
+          "en": "Cross section crooked",
+          "fr": "Coupure oblique"
+        },
+        {
+          "code": "024",
+          "de": "Längsschnitt nicht gerade",
+          "en": "Longitudinal cut not straight",
+          "fr": "Coupe longitudinale n'est pas droite"
+        },
+        {
+          "code": "025",
+          "de": "Verdrillrichtung falsch",
+          "en": "Twisted direction false",
+          "fr": "Sens de torsadage NC"
+        },
+        {
+          "code": "026",
+          "de": "Unverdrillte Länge falsch",
+          "en": "Untwisted length wrong",
+          "fr": "Longueur non torsadée NC"
+        },
+        {
+          "code": "027",
+          "de": "Leitung wellig nach entdrillen",
+          "en": "Wire not stretched after untwisting",
+          "fr": "Fil ondulé après détorsadage"
+        },
+        {
+          "code": "028",
+          "de": "Falsche Anzahl der Leitungen im Bündel",
+          "en": "Wrong number of wires in the bundle",
+          "fr": "Quantité non-conforme de fils dans le toron"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": {
+        "de": "Crimpen/Schneidklemmtechnik",
+        "en": "Crimping/Insulation Displacement Technology",
+        "fr": "Sertissage/ Technologie déplacement Isolant"
+      },
+      "defects": [
+        {
+          "code": "100",
+          "de": "Isolation im Drahtcrimp",
+          "en": "Insulation in copper crimp area",
+          "fr": "Isolant dans zone de sertissage de cuivre"
+        },
+        {
+          "code": "101",
+          "de": "Fremdkörper im Crimp",
+          "en": "Foreign object in crimp area",
+          "fr": "Corps étranger dans le sertissage"
+        },
+        {
+          "code": "102",
+          "de": "Einzeldrähte nicht erfaßt",
+          "en": "Single strands outside",
+          "fr": "Quelques brins de cuivre non sertis"
+        },
+        {
+          "code": "103",
+          "de": "Isolationscrimp n.i.O.",
+          "en": "Insulation crimp not o.k.",
+          "fr": "Sertissage sur isolant non-conforme"
+        },
+        {
+          "code": "104",
+          "de": "Crimpbreite n.i.O.",
+          "en": "Crimp width not o.k.",
+          "fr": "Largeur de sertissage non conforme"
+        },
+        {
+          "code": "105",
+          "de": "Crimphöhe n.i.O.",
+          "en": "Crimp height not o.k.",
+          "fr": "Hauteur de sertissage non conforme"
+        },
+        {
+          "code": "106",
+          "de": "Abzugskraft n.i.O.",
+          "en": "Pull-out force not o.k.",
+          "fr": "Force de traction non conforme"
+        },
+        {
+          "code": "107",
+          "de": "Leitungsposition im Kontakt n.i.O.",
+          "en": "Cable wrong position",
+          "fr": "Position du fil dans le contact non conforme"
+        },
+        {
+          "code": "108",
+          "de": "Falscher Kontakt",
+          "en": "Wrong contact",
+          "fr": "Erreur de contact"
+        },
+        {
+          "code": "109",
+          "de": "Falsche Kontaktoberfläche",
+          "en": "Wrong plating of terminal",
+          "fr": "Traitement de surface du contact non-conforme"
+        },
+        {
+          "code": "110",
+          "de": "Deformierte Steckzone",
+          "en": "Deformed contact area",
+          "fr": "Zone de contact déformée"
+        },
+        {
+          "code": "111",
+          "de": "Deformierte Crimpzone",
+          "en": "Deformed crimping area",
+          "fr": "Zone de sertissage déformée"
+        },
+        {
+          "code": "112",
+          "de": "Trennsteg falsch",
+          "en": "Terminal feeder cut incorrect",
+          "fr": "Témoin de coupe mal coupé"
+        },
+        {
+          "code": "113",
+          "de": "Rastnase deformiert",
+          "en": "Terminal lock deformed/missing",
+          "fr": "Verrouillage déformé / manquant"
+        },
+        {
+          "code": "114",
+          "de": "Trompete n.i.O./fehlt",
+          "en": "Bell mouth incorrect missing",
+          "fr": "Entrée de la cosse non conforme / manquante"
+        },
+        {
+          "code": "115",
+          "de": "Kontakt nicht nach Spezification",
+          "en": "Contact is not to specification",
+          "fr": "Contact non conforme aux spécifications"
+        },
+        {
+          "code": "116",
+          "de": "Schergrat zu groß",
+          "en": "Crimp burr too large",
+          "fr": "Bavure sertissage trop grande"
+        },
+        {
+          "code": "117",
+          "de": "Drahtcrimp offen",
+          "en": "Copper crimp open",
+          "fr": "Sertissage sur cuivre ouvert"
+        },
+        {
+          "code": "118",
+          "de": "Leitung nur in eine Schneidklemme",
+          "en": "Wire only in one blade of IDC",
+          "fr": "Fil coincé seulement par une lame de l' IDC"
+        },
+        {
+          "code": "119",
+          "de": "Falsche Einzeladerabdichtung",
+          "en": "Wrong seal",
+          "fr": "Erreur de joint"
+        },
+        {
+          "code": "120",
+          "de": "Beschädigte Einzeladerabdichtung",
+          "en": "Damaged seal",
+          "fr": "Joint non étanche / endommagé"
+        },
+        {
+          "code": "121",
+          "de": "Position Einzeladerabdichtung n.i.O.",
+          "en": "Position of seal not o.k.",
+          "fr": "Position du joint non-conforme"
+        },
+        {
+          "code": "122",
+          "de": "Isolation zurückgezogen",
+          "en": "Insulation pulls back",
+          "fr": "L'isolant se retire"
+        },
+        {
+          "code": "123",
+          "de": "Isokrimp-Höhe n. i. O.",
+          "en": "Insulation height not o.k.",
+          "fr": "Hauteur isolant non-conforme"
+        },
+        {
+          "code": "124",
+          "de": "Isokrimp-Breite n.i.O.",
+          "en": "Insulation width not o.k.",
+          "fr": "Largeur Isolant non-conforme"
+        },
+        {
+          "code": "125",
+          "de": "Verdrehte Fitting",
+          "en": "Twist Fitment",
+          "fr": "Fil torsadé dans la cavité"
+        },
+        {
+          "code": "126",
+          "de": "Verbogene Fitting",
+          "en": "Bent Fitment",
+          "fr": "Fil déformé dans la carte"
+        },
+        {
+          "code": "127",
+          "de": "Einzeladerabdichtung fehlt",
+          "en": "Seal missing",
+          "fr": "Joint manquant"
+        },
+        {
+          "code": "128",
+          "de": "Überstehende Litze",
+          "en": "Strand too long",
+          "fr": "Brin débordant / trop long"
+        },
+        {
+          "code": "129",
+          "de": "Kontakt oxidiert",
+          "en": "Contact oxidized",
+          "fr": "Contact oxydé Element manquant suite au module de coupe dans le flux de"
+        },
+        {
+          "code": "130",
+          "de": "Fehlerteil durch Cut-Modul im Produktionsablauf",
+          "en": "Defect part from Cut-module in production flow",
+          "fr": " production"
+        },
+        {
+          "code": "131",
+          "de": "Abgetrennte Litzen im Crimpbereich",
+          "en": "Detached strands in crimp area",
+          "fr": "Brins de fil libre dans la zone de sertissage"
+        },
+        {
+          "code": "132",
+          "de": "Trennsteg zu lang/nicht vollständig entfernt",
+          "en": "Connection bar too long/not completely removed",
+          "fr": "Présence de témoin de découpe"
+        },
+        {
+          "code": "133",
+          "de": "Leitung durchtrennt anstatt abisoliert",
+          "en": "Wire cut instead of stripped",
+          "fr": "Coupe nette"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "name": {
+        "de": "Löten",
+        "en": "Soldering",
+        "fr": "Soudure"
+      },
+      "defects": [
+        {
+          "code": "200",
+          "de": "Zinn im Kontaktbereich/Steckzone",
+          "en": "Solder on contact area",
+          "fr": "Etain dans la partie du contact"
+        },
+        {
+          "code": "201",
+          "de": "Kalte Lötstelle",
+          "en": "Cold solder joint",
+          "fr": "Soudure froide"
+        },
+        {
+          "code": "202",
+          "de": "Zinn unter Isolation (> 7mm)",
+          "en": "Solder under insulation (> 7mm)",
+          "fr": "Etain sous isolant (>7mm)"
+        },
+        {
+          "code": "203",
+          "de": "Löthülse/Verbinder nicht gelötet",
+          "en": "Terminal/joint not soldered",
+          "fr": "Cosse assemblage non soudé"
+        },
+        {
+          "code": "204",
+          "de": "Zuviel Lötzinn / schlecht gelötet",
+          "en": "Too much solder / badly soldered",
+          "fr": "Beaucoup d' étain de soudure/Mauvais soudage"
+        },
+        {
+          "code": "205",
+          "de": "Leitung steht über Hülsenbund",
+          "en": "Strip end is sticking too far out",
+          "fr": "Limite de dénudage trop éloignée"
+        },
+        {
+          "code": "206",
+          "de": "Zinn auf Isolation",
+          "en": "Solder on insulation",
+          "fr": "Etain sur l'isolant"
+        },
+        {
+          "code": "207",
+          "de": "Isolationsabstand mehr als 2 mm",
+          "en": "Insulation gap more than 2 mm",
+          "fr": "Distance d'isolation plus que 2mm"
+        },
+        {
+          "code": "208",
+          "de": "Isolation verschmorrt",
+          "en": "Insulation burned",
+          "fr": "Isolant brûlé"
+        },
+        {
+          "code": "209",
+          "de": "Zuviel Flußmittel auf Hülse/Verbinder/Leitung",
+          "en": "Too much flux (terminal/joint/cable)",
+          "fr": "trop de flux sur la cosse/ assemblage/ fil"
+        },
+        {
+          "code": "210",
+          "de": "Nicht alle Einzeldrähte in der Verbindung",
+          "en": "Not all strands in solder areas/joint",
+          "fr": "Tous les brins du fil ne sont pas dans la soudure"
+        },
+        {
+          "code": "211",
+          "de": "Isolation in Verbinder",
+          "en": "Insolation in the solder area",
+          "fr": "Isolant dans la soudure"
+        },
+        {
+          "code": "212",
+          "de": "Endhülse nicht verpresst",
+          "en": "End splice not pressed",
+          "fr": "Agrafe n´est pas sertie"
+        },
+        {
+          "code": "213",
+          "de": "Litzenverseilung n.i.O.",
+          "en": "Wire Strands twisting not o.k.",
+          "fr": "Torsadage des brins non-conforme"
+        },
+        {
+          "code": "214",
+          "de": "Abstand zwischen Isolation u. Hülse zu lang",
+          "en": "Gap between insulation and casing too long",
+          "fr": "Mesure entre l'isolant et la cosse trop longue"
+        },
+        {
+          "code": "216",
+          "de": "Litzen 3mm über die Hülse",
+          "en": "Strand is 3 mm too long",
+          "fr": "Brins hors cosse plus que 3 mm"
+        },
+        {
+          "code": "217",
+          "de": "Hülse teilweise nicht verzinnt",
+          "en": "Parts of casing not tinned",
+          "fr": "Partie de la cosse non étamée"
+        },
+        {
+          "code": "218",
+          "de": "Abstand zwischen Isolation und Klemme über 1mm",
+          "en": "Gap between insulation and fixing more than 1 mm",
+          "fr": "Distance entre l'isolation et la fixation est plus qu'1 mm"
+        },
+        {
+          "code": "219",
+          "de": "Nicht alle Litzen verzinnt",
+          "en": "Not every strand is tinned",
+          "fr": "Les brins ne sont pas tous dans la soudure"
+        },
+        {
+          "code": "220",
+          "de": "Zuviel Zinn auf Batterieklemme",
+          "en": "Too much tin on battery fixing",
+          "fr": "Trop d' étain sur la fixation du batterie"
+        },
+        {
+          "code": "221",
+          "de": "Leitung durch Zinn verhärtet",
+          "en": "Wire hardened by tin",
+          "fr": "Fil endurci par l'étain"
+        },
+        {
+          "code": "222",
+          "de": "Zinnaufbauten an der Lötstelle",
+          "en": "Tin build-ups on soldering",
+          "fr": "Accumulation d'étain sur le point de soudage"
+        },
+        {
+          "code": "223",
+          "de": "Flussmittelrückstände an der Lötstelle",
+          "en": "Solder-forming flux residues on soldering point",
+          "fr": "résidus de flux sur le point de soudage"
+        },
+        {
+          "code": "224",
+          "de": "Flussmittelrückstände im Kontaktbereich",
+          "en": "Solder-forming flux residues in contact area",
+          "fr": "résidus de flux dans la zone de contact"
+        },
+        {
+          "code": "225",
+          "de": "Flussmittelrückstände auf der Leitung",
+          "en": "Solder-forming flux residues on wire",
+          "fr": "Résidus de flux sur le fil"
+        },
+        {
+          "code": "226",
+          "de": "Enden nicht komplett mit Zinn umflossen",
+          "en": "Wire ends not completely covered with tin",
+          "fr": "Les extrémités des fils ne sont pas intégrés avec l'étain"
+        },
+        {
+          "code": "227",
+          "de": "Einzeldrähte stehen ab",
+          "en": "Single strands are splitting",
+          "fr": "Brins débordés, éparpillés"
+        },
+        {
+          "code": "228",
+          "de": "Unzulässige Zinnspitzen",
+          "en": "Improper tin spikes",
+          "fr": "Pointes de soudure non acceptable"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "name": {
+        "de": "Schweißen",
+        "en": "Welding",
+        "fr": "Soudage"
+      },
+      "defects": [
+        {
+          "code": "300",
+          "de": "Einzeldrähte fehlen",
+          "en": "Strands missing",
+          "fr": "Manque brins de fils"
+        },
+        {
+          "code": "301",
+          "de": "Leitungskombination falsch",
+          "en": "Cable selection incorrect",
+          "fr": "Sélection fil incorrect"
+        },
+        {
+          "code": "302",
+          "de": "Leitungsposition falsch",
+          "en": "Cable position wrong",
+          "fr": "Fil en mauvaise position"
+        },
+        {
+          "code": "303",
+          "de": "Kleine Leitung nicht in der Mitte",
+          "en": "Small cable not in the center",
+          "fr": "Petit fils ne sont pas au centre"
+        },
+        {
+          "code": "304",
+          "de": "Isolation in der Schweißstelle",
+          "en": "Insulation in welding area",
+          "fr": "Isolant dans la zone de soudure"
+        },
+        {
+          "code": "305",
+          "de": "Isolationsabstand mehr als 5 mm",
+          "en": "Insulation gap more than 5 mm",
+          "fr": "Distance d'isolation plus que 5mm"
+        },
+        {
+          "code": "306",
+          "de": "Isolation der Schweissstelle fehlt",
+          "en": "Insulation of welding area missing",
+          "fr": "Isolant de la zone de soudure manquant"
+        },
+        {
+          "code": "307",
+          "de": "Isolation der Schweissstelle beschädigt",
+          "en": "Insulation of welding area damaged",
+          "fr": "Isolation dans la zone de soudure endommagé"
+        },
+        {
+          "code": "310",
+          "de": "Abgerissene Leitung",
+          "en": "Ragged wire",
+          "fr": "Fil déchiré"
+        },
+        {
+          "code": "311",
+          "de": "Isolation nicht wasserdicht",
+          "en": "Isulation is not watertight",
+          "fr": "Isolation non étanche"
+        },
+        {
+          "code": "312",
+          "de": "Schweissbild auf der Rückseite fehlt",
+          "en": "Welding characteristic is missing on the backside",
+          "fr": "Caractéristique de soudage manquante à l'arrière"
+        },
+        {
+          "code": "315",
+          "de": "Einzeldrähte aufgefächert",
+          "en": "Strands splitting",
+          "fr": "Brins de fil divisés, éparpillés"
+        },
+        {
+          "code": "316",
+          "de": "Schweissstelle zu scharfkantig",
+          "en": "Welding point feather-edged",
+          "fr": "Point de soudure trop aigü / pas arrondi"
+        },
+        {
+          "code": "317",
+          "de": "-> <-",
+          "en": "-> <-",
+          "fr": "-> <-"
+        },
+        {
+          "code": "318",
+          "de": "Litzen stehen zu weit über",
+          "en": "Strands are too long",
+          "fr": "Brins du fil trop long"
+        },
+        {
+          "code": "321",
+          "de": "Schweisspunkt falsch positioniert",
+          "en": "Wrong positioning of welding point",
+          "fr": "Point de soudage mal positionné"
+        },
+        {
+          "code": "322",
+          "de": "Schweisspunkt falsch dimensioniert",
+          "en": "Wrong dimensioning of welding point",
+          "fr": "Point de soudage mal dimensionné"
+        },
+        {
+          "code": "323",
+          "de": "Schälkraft n.i.O.",
+          "en": "Peel force not o.k.",
+          "fr": "Force de pelage non-conforme"
+        },
+        {
+          "code": "324",
+          "de": "Abzugskraft USS n.i.O.",
+          "en": "Tensile strength of welding not o.k.",
+          "fr": "Force de tension de soudage non-conforme"
+        },
+        {
+          "code": "325",
+          "de": "Riss auf der Oberfläche",
+          "en": "Surface crack",
+          "fr": "Cracks superficiels"
+        },
+        {
+          "code": "326",
+          "de": "Schweisszone verbrannt",
+          "en": "Welding area burned",
+          "fr": "Zone de soudure brûlée"
+        },
+        {
+          "code": "327",
+          "de": "Falscher Kontakt",
+          "en": "Wrong terminal use",
+          "fr": "Contact faux"
+        },
+        {
+          "code": "328",
+          "de": "Isolierung geschmolzen oder beschädigt",
+          "en": "Insulation melded or damaged after welding",
+          "fr": "Isolation fondu ou endommagé aprés soudage"
+        },
+        {
+          "code": "329",
+          "de": "Höhe des Grates an der Schweißzone zu groß",
+          "en": "Height of burrs in welding area too big",
+          "fr": "Hauteur de bavure au zone de soudage est grande"
+        },
+        {
+          "code": "330",
+          "de": "Breite des Grates an der Schweißzone zu groß",
+          "en": "Width of burrs in welding area too big",
+          "fr": "Largueur de bavure au zone de soudage est grande"
+        },
+        {
+          "code": "331",
+          "de": "Fremdmaterial in der Schweißzone",
+          "en": "Foreign material in welding nugget",
+          "fr": "Corp étrangé au zone de soudage"
+        },
+        {
+          "code": "332",
+          "de": "Schweißbreite n. i.O.",
+          "en": "Weld width not OK",
+          "fr": "Largueur de soudage non conforme"
+        },
+        {
+          "code": "333",
+          "de": "Schweißhöhe n. i.O.",
+          "en": "Weld height not OK",
+          "fr": "Hauteur de soudage non conforme"
+        },
+        {
+          "code": "334",
+          "de": "Leitungspositionerung in Längsrichtung n. i.O.",
+          "en": "Wire positioning lengths not OK",
+          "fr": "Positions des fils non conforme"
+        },
+        {
+          "code": "335",
+          "de": "Schweißzone nicht in Kontaktmitte",
+          "en": "Welding nugget not in the middle of welding area",
+          "fr": "Soudage n´est pas centré au zone concerné"
+        },
+        {
+          "code": "336",
+          "de": "Gebrochene Drähte",
+          "en": "Broken strands in welding area",
+          "fr": "Brins de cuivre cassé au zone de soudage"
+        },
+        {
+          "code": "337",
+          "de": "Abstehende Drähte an der Schweißzone",
+          "en": "Protruding strands on welding nugget",
+          "fr": "Brins de cuivre saillants au zone de soudage"
+        },
+        {
+          "code": "338",
+          "de": "Isolationscrimphöhe n.i.O.",
+          "en": "Insulation crimp height not OK",
+          "fr": "Hauteur de sertissage d´isolation non conforme"
+        },
+        {
+          "code": "339",
+          "de": "Biegeprüfung n.i.O.",
+          "en": "Bending test not OK",
+          "fr": "Test de piage non conforme"
+        },
+        {
+          "code": "340",
+          "de": "Nur teilweise Verschweißt",
+          "en": "Partial welding",
+          "fr": "Soudage partiel ou incomplet"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "name": {
+        "de": "Spritzen",
+        "en": "Moulding",
+        "fr": "Moulage"
+      },
+      "defects": [
+        {
+          "code": "400",
+          "de": "Kontakt zugespritzt",
+          "en": "Mould material in contact area",
+          "fr": "Matière d'injection dans la zone de contact"
+        },
+        {
+          "code": "401",
+          "de": "Spritzteil deformiert",
+          "en": "Mould part deformed",
+          "fr": "Pièce injectée déformée"
+        },
+        {
+          "code": "402",
+          "de": "Kontakt/Hülse deformiert",
+          "en": "Contact/terminal deformed",
+          "fr": "Contact/cosse déformé"
+        },
+        {
+          "code": "403",
+          "de": "Risse auf Oberfläche",
+          "en": "Hairline cracks on surface",
+          "fr": "Bavures / Fissures sur la surface"
+        },
+        {
+          "code": "404",
+          "de": "Fremdkörper im Spritzteil",
+          "en": "Foreign objects on the moulded part",
+          "fr": "Corps étranger dans l'injection"
+        },
+        {
+          "code": "405",
+          "de": "Spritzteil verschmutzt",
+          "en": "Moulded part dirty",
+          "fr": "pièces moulées sales"
+        },
+        {
+          "code": "406",
+          "de": "Leitung/Mantel nicht mittig im Spritzteil",
+          "en": "Cable not in center of moulded part",
+          "fr": "Fils/gaine n'est pas au milieu de l'injection"
+        },
+        {
+          "code": "407",
+          "de": "Blasen auf der Oberfläche",
+          "en": "Bubbles on the moulded part",
+          "fr": "Bulles d' air sur l'injection"
+        },
+        {
+          "code": "408",
+          "de": "Nicht vollständig ausgespritzt",
+          "en": "Not completety moulded",
+          "fr": "Manque matière / Non moulé complétement"
+        },
+        {
+          "code": "409",
+          "de": "Leitung/Mantel sichtbar auf dem Spritzteil",
+          "en": "Cable/coat visible on the moulded part",
+          "fr": "Fil/gaine visible sur l'injection"
+        },
+        {
+          "code": "410",
+          "de": "Leitung/Mantel hinter Spritzteil beschädigt/geknickt",
+          "en": "Cable/coat damaged/folded directly at moulded part",
+          "fr": "Fil/gaine derrière l'injection endommagée/plié"
+        },
+        {
+          "code": "411",
+          "de": "Kontakt im Spritzteil gebrochen",
+          "en": "Contact broken in the moulded part",
+          "fr": "Contact cassé dans l'injection"
+        },
+        {
+          "code": "412",
+          "de": "Position Kontakt im Spritzteil falsch",
+          "en": "Position of contact in the moulded part wrong",
+          "fr": "Mauvaise position du contact dans l' injection"
+        },
+        {
+          "code": "413",
+          "de": "Material am Spritzteil ausgetreten",
+          "en": "Excess material on the part",
+          "fr": "Excés matière sur la pièce"
+        },
+        {
+          "code": "414",
+          "de": "Fließlinien",
+          "en": "Mould joint not o.k.",
+          "fr": "Ligne de soudure non-conforme"
+        },
+        {
+          "code": "415",
+          "de": "Beschriftung nicht lesbar",
+          "en": "Inscriptions not clear",
+          "fr": "Inscription illisible"
+        },
+        {
+          "code": "416",
+          "de": "Falsches Material (Granulat)",
+          "en": "Wrong material (granules)",
+          "fr": "Mauvaise matière (granulés)"
+        },
+        {
+          "code": "417",
+          "de": "Spritzgrat zu groß",
+          "en": "Mold burr too big",
+          "fr": "Bavure d' injection trop grande"
+        },
+        {
+          "code": "418",
+          "de": "Spritzfehler an der Tülle",
+          "en": "Damaged molding grommet",
+          "fr": "Faute d'injection sur le passe-câble"
+        },
+        {
+          "code": "420",
+          "de": "Rückstände an der Oberfläche",
+          "en": "Residues on surface",
+          "fr": "Déchets sur la surface"
+        },
+        {
+          "code": "421",
+          "de": "Anspritzpunkt zu hoch",
+          "en": "Injection point too high",
+          "fr": "Point d'injection trop long, mal arasé"
+        },
+        {
+          "code": "422",
+          "de": "Spritzteil undicht",
+          "en": "molded part leaky",
+          "fr": "Piece surmoulé ne pas etancheite"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "name": {
+        "de": "Schäumen",
+        "en": "Foaming",
+        "fr": "Injections"
+      },
+      "defects": [
+        {
+          "code": "500",
+          "de": "Leitung verhärtet",
+          "en": "Cable too hard",
+          "fr": "Fil trop dur"
+        },
+        {
+          "code": "501",
+          "de": "Schaum ausgetreten",
+          "en": "Foam (excessive material)",
+          "fr": "Mousse (excès de matière)"
+        },
+        {
+          "code": "502",
+          "de": "Nicht vollständig ausgeschäumt",
+          "en": "Incompletely foamed",
+          "fr": "Mousse incomplète"
+        },
+        {
+          "code": "503",
+          "de": "Schaumteil nicht sauber geputzt",
+          "en": "Foamed part not proper cleaned",
+          "fr": "Pièce moulée non propre"
+        },
+        {
+          "code": "504",
+          "de": "Austritt falsch",
+          "en": "Wrong branch position",
+          "fr": "Sortie mauvaise position"
+        },
+        {
+          "code": "505",
+          "de": "Schaum zu weich",
+          "en": "Foam too soft",
+          "fr": "Mousse trop molle"
+        },
+        {
+          "code": "506",
+          "de": "Schaum zu hart",
+          "en": "Foam too hard",
+          "fr": "Mousse trop dure"
+        },
+        {
+          "code": "507",
+          "de": "Teile fehlen/nicht sauber eingeschäumt",
+          "en": "Parts missing/not properly foamed",
+          "fr": "Pièce manquante/non correctement moulée"
+        },
+        {
+          "code": "508",
+          "de": "Sichtbare Leitungen",
+          "en": "Wire visible",
+          "fr": "Fils visibles"
+        },
+        {
+          "code": "509",
+          "de": "Luftblasen an der Oberfläche",
+          "en": "Air bubbles on surface",
+          "fr": "bulles d'air sur la surface"
+        },
+        {
+          "code": "510",
+          "de": "Schaum im Gehäuse",
+          "en": "Foam inside the housing",
+          "fr": "Mousse dans le connecteur / Migration de matière"
+        },
+        {
+          "code": "511",
+          "de": "Leitung gequetscht",
+          "en": "Pinched wire",
+          "fr": "Fil pincé"
+        },
+        {
+          "code": "512",
+          "de": "Dichte, Härte n. i. O.",
+          "en": "Density, hardness not o.k.",
+          "fr": "Dureté, densité non-conforme"
+        },
+        {
+          "code": "513",
+          "de": "Polymerisierung n. i. O.",
+          "en": "Polymerisation not o.k.",
+          "fr": "Polymérisation non-conforme"
+        },
+        {
+          "code": "514",
+          "de": "Schaum im Gehäuse",
+          "en": "Foam inside the housing",
+          "fr": "Mousse dans le connecteur (douille)"
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "name": {
+        "de": "Montage *",
+        "en": "Assembly *",
+        "fr": "Assemblage*"
+      },
+      "defects": [
+        {
+          "code": "600",
+          "de": "Kontakt aufgeweitet",
+          "en": "Terminals width wrong",
+          "fr": "Contact élargi"
+        },
+        {
+          "code": "601",
+          "de": "Lose montiert",
+          "en": "Loose fit",
+          "fr": "Contact mal fixé ( non encliqueté)"
+        },
+        {
+          "code": "602",
+          "de": "Falsches Teil",
+          "en": "Wrong part",
+          "fr": "Erreur de composant"
+        },
+        {
+          "code": "603",
+          "de": "Teil fehlt",
+          "en": "Missing part",
+          "fr": "Elément manquant"
+        },
+        {
+          "code": "604",
+          "de": "Teil versetzt/verdreht/nicht auf Maß",
+          "en": "Incorrect position of parts",
+          "fr": "Mauvaise position de l'élément"
+        },
+        {
+          "code": "605",
+          "de": "Bandierfehler",
+          "en": "Taping failures",
+          "fr": "enrubannage ( bandage) non-conforme"
+        },
+        {
+          "code": "606",
+          "de": "",
+          "en": "",
+          "fr": ""
+        },
+        {
+          "code": "607",
+          "de": "Teil beschädigt",
+          "en": "Damaged part",
+          "fr": "Elément endommagé"
+        },
+        {
+          "code": "608",
+          "de": "Schlecht geklebt",
+          "en": "Incorrectly glued",
+          "fr": "Mauvais collage"
+        },
+        {
+          "code": "609",
+          "de": "Kennzeichnung fehlt",
+          "en": "Label missing",
+          "fr": "Manque identification"
+        },
+        {
+          "code": "610",
+          "de": "Kennzeichnung falsch",
+          "en": "Label wrong",
+          "fr": "Mauvaise identification"
+        },
+        {
+          "code": "611",
+          "de": "Barcode nicht lesbar",
+          "en": "Barcode not legible",
+          "fr": "Code à barres illisible"
+        },
+        {
+          "code": "612",
+          "de": "Wellrohr falsch geschnitten/geschlitzt",
+          "en": "Corrugated tube incorrectly cut/split",
+          "fr": "Gaine mal coupé/fissuré"
+        },
+        {
+          "code": "613",
+          "de": "Teile nicht wasserdicht",
+          "en": "Parts not water tight",
+          "fr": "Elément non étanche"
+        },
+        {
+          "code": "614",
+          "de": "Teile korrodiert",
+          "en": "Parts corroded",
+          "fr": "Élément oxydé (rouillé)"
+        },
+        {
+          "code": "615",
+          "de": "Schrumpfen n.i.O.",
+          "en": "Incorrect shrinking",
+          "fr": "Retrécissage non-conforme"
+        },
+        {
+          "code": "616",
+          "de": "Teile verschmutzt",
+          "en": "Parts dirty",
+          "fr": "Element sale"
+        },
+        {
+          "code": "617",
+          "de": "Falsch montiert",
+          "en": "Incorrect assembled",
+          "fr": "Assemblage non-conforme"
+        },
+        {
+          "code": "618",
+          "de": "Drehmoment falsch",
+          "en": "Incorrect torque setting",
+          "fr": "Mauvais règlage couple"
+        },
+        {
+          "code": "619",
+          "de": "Markierung fehlt",
+          "en": "Missing marking",
+          "fr": "Marquage manquant"
+        },
+        {
+          "code": "620",
+          "de": "Markierung falsch",
+          "en": "Marking incorrectly",
+          "fr": "Marquage non-conforme"
+        },
+        {
+          "code": "621",
+          "de": "Ausbindung falsch positioniert",
+          "en": "Positioning of branch incorrectly",
+          "fr": "Sortie de la branche non-conforme"
+        },
+        {
+          "code": "622",
+          "de": "Ausbindung zu kurz",
+          "en": "Branch too short",
+          "fr": "Branche trop courte"
+        },
+        {
+          "code": "623",
+          "de": "Ausbindung zu lang",
+          "en": "Branch too big",
+          "fr": "Branche trop longue"
+        },
+        {
+          "code": "624",
+          "de": "Tüllenposition n.i.O.",
+          "en": "Position of grommet not o.k.",
+          "fr": "Position passe fils non-conforme"
+        },
+        {
+          "code": "625",
+          "de": "Durchmesser n.i.O.",
+          "en": "Cross-section not o.k.",
+          "fr": "Section non-conforme"
+        },
+        {
+          "code": "626",
+          "de": "Gewindeanzahl n.i.O.",
+          "en": "Number of threads not o.k.",
+          "fr": "Nombre de filets non-conforme"
+        },
+        {
+          "code": "627",
+          "de": "Fixierung mangelhaft",
+          "en": "Fixture not o.k.",
+          "fr": "Fixation non-conforme"
+        },
+        {
+          "code": "628",
+          "de": "Gewinde n.i.O",
+          "en": "Thread not o.k.",
+          "fr": "Filetage non-conforme"
+        },
+        {
+          "code": "633",
+          "de": "Kleber nicht gleichmäßig verteilt",
+          "en": "Uneven dispersion of adhesive",
+          "fr": "Application inégale de colle"
+        },
+        {
+          "code": "634",
+          "de": "Kleber in bzw. auf Kontakt eingeflossen",
+          "en": "Adhesive on contact",
+          "fr": "Présence de colle sur les contacts"
+        },
+        {
+          "code": "635",
+          "de": "Falscher Einstellparameter",
+          "en": "Wrong setting parameter",
+          "fr": "Mauvais paramètres de règlage"
+        },
+        {
+          "code": "639",
+          "de": "Stanzen fehlerhaft",
+          "en": "Faulty stamping",
+          "fr": "Perçage / Estampillage non-conforme"
+        },
+        {
+          "code": "644",
+          "de": "Sonstiges Zukaufteil beschädigt",
+          "en": "Other purchased part damaged",
+          "fr": "Autre composant d'achat endommagé"
+        },
+        {
+          "code": "649",
+          "de": "Sonstiges Zukaufteil fehlt",
+          "en": "Other purchased part is missing",
+          "fr": "Autre composant d'achat manquant"
+        },
+        {
+          "code": "656",
+          "de": "Sicherung verbogen",
+          "en": "Fuse deformed",
+          "fr": "Fusible déformé"
+        },
+        {
+          "code": "657",
+          "de": "Sicherung falsch gesteckt",
+          "en": "Fuse in wrong position",
+          "fr": "Fusible en mauvaise position"
+        },
+        {
+          "code": "658",
+          "de": "Gehäuse nicht verrastet",
+          "en": "Case not locked",
+          "fr": "Connecteur (douille) non verrouillé"
+        },
+        {
+          "code": "659",
+          "de": "Schlauch geknickt",
+          "en": "Sleeve buckled",
+          "fr": "Manchon flambé / déformé"
+        },
+        {
+          "code": "660",
+          "de": "Sonstiges Zukaufteil fehlerhaft",
+          "en": "Other purchased part defective",
+          "fr": "Autre composant acheté non-conforme"
+        },
+        {
+          "code": "661",
+          "de": "Pin in falscher Position",
+          "en": "Pin in false position",
+          "fr": "Position PIN non conformre"
+        },
+        {
+          "code": "662",
+          "de": "Pin verbogen",
+          "en": "Pin deformed",
+          "fr": "PIN déformé"
+        },
+        {
+          "code": "663",
+          "de": "Überlappungsmaß n.i.O.",
+          "en": "Overlap dimensions not o.k.",
+          "fr": "Dimension de recouvrement non-conforme"
+        },
+        {
+          "code": "664",
+          "de": "Durchmesserfehler",
+          "en": "Diameter failure",
+          "fr": "Erreur Diamètre"
+        },
+        {
+          "code": "665",
+          "de": "Haftsitzfehler",
+          "en": "Tight fit failure",
+          "fr": "Erreur de serrage"
+        },
+        {
+          "code": "666",
+          "de": "Beflechtung ist lose",
+          "en": "Braiding is loose",
+          "fr": "Pas de la tresse trop large / mal tenue"
+        },
+        {
+          "code": "667",
+          "de": "Schlaufe unter Beflechtung",
+          "en": "Loop under the braiding",
+          "fr": "Nœud dans la tresse"
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "name": {
+        "de": "Elektrische Funktionsprüfung",
+        "en": "Electrical test",
+        "fr": "Contrôle électrique"
+      },
+      "defects": [
+        {
+          "code": "700",
+          "de": "Leitung gebrochen",
+          "en": "Broken cable",
+          "fr": "Fil coupé / cassé"
+        },
+        {
+          "code": "701",
+          "de": "Leitung versteckt",
+          "en": "Cable switched",
+          "fr": "Fil inversé"
+        },
+        {
+          "code": "702",
+          "de": "Kontakt fehlt",
+          "en": "Contact missing",
+          "fr": "Contact manquant"
+        },
+        {
+          "code": "703",
+          "de": "Kontakt nicht verrastet",
+          "en": "Contact not locked",
+          "fr": "Contact non encliqueté"
+        },
+        {
+          "code": "704",
+          "de": "Kurzschluß",
+          "en": "Short circuit",
+          "fr": "Court circuit"
+        },
+        {
+          "code": "705",
+          "de": "Leitung fehlt",
+          "en": "Cable missing",
+          "fr": "Fil manquant"
+        },
+        {
+          "code": "706",
+          "de": "Leitung zuviel",
+          "en": "Extra cable",
+          "fr": "Fil en plus"
+        },
+        {
+          "code": "707",
+          "de": "Diode verpolt",
+          "en": "Diode polarity wrong",
+          "fr": "Diode inversé"
+        },
+        {
+          "code": "708",
+          "de": "Nicht geprüft",
+          "en": "Not tested",
+          "fr": "Non contrôlé"
+        },
+        {
+          "code": "709",
+          "de": "Unterdruckleitung fehlerhaft",
+          "en": "Air pipe failure",
+          "fr": "Tube à air endommagé"
+        },
+        {
+          "code": "710",
+          "de": "Dämfung zu groß",
+          "en": "Attenuation too big",
+          "fr": "Amortissement trop important"
+        },
+        {
+          "code": "711",
+          "de": "Widerstand n.i.O",
+          "en": "Resistance not o.k.",
+          "fr": "Résistance non-conforme"
+        },
+        {
+          "code": "712",
+          "de": "Prüfkenzeichnung n.i.O.",
+          "en": "Test identification not o.k.",
+          "fr": "Identification de test non-conforme"
+        },
+        {
+          "code": "713",
+          "de": "Keine Funktion",
+          "en": "No function",
+          "fr": "Pas de fonction"
+        },
+        {
+          "code": "714",
+          "de": "Hochspannungsfehler",
+          "en": "High-voltage failure",
+          "fr": "Test haute tension non-conforme (Isolation)"
+        },
+        {
+          "code": "715",
+          "de": "Fehlendes Relais",
+          "en": "Relay Missing",
+          "fr": "Manque relais"
+        },
+        {
+          "code": "716",
+          "de": "Falsche Sicherung",
+          "en": "Wrong fuse",
+          "fr": "Erreur de fusible"
+        },
+        {
+          "code": "717",
+          "de": "Falsches Relais",
+          "en": "Wrong relay",
+          "fr": "Erreur de relais"
+        },
+        {
+          "code": "718",
+          "de": "Sicherung nicht vollständig gesteckt",
+          "en": "Fuse not locked",
+          "fr": "Fusible mal verrouillé"
+        },
+        {
+          "code": "719",
+          "de": "Relais nicht vollständig gesteckt",
+          "en": "Relay not locked",
+          "fr": "Relais mal verrouillé"
+        }
+      ]
+    },
+    {
+      "code": "8",
+      "name": {
+        "de": "Verpackung / Versand",
+        "en": "Packaging / Shipping",
+        "fr": "Conditionnement / Livraison"
+      },
+      "defects": [
+        {
+          "code": "800",
+          "de": "Falsche Verpackungskennzeichnug",
+          "en": "Wrong identification",
+          "fr": "Erreur d'identification"
+        },
+        {
+          "code": "801",
+          "de": "Falsches Packmittel/Aufmachung",
+          "en": "Wrong container",
+          "fr": "Erreur de contenant / défaut d'aspect"
+        },
+        {
+          "code": "802",
+          "de": "Falsche Menge",
+          "en": "Wrong quantity",
+          "fr": "Erreur de quantité"
+        },
+        {
+          "code": "803",
+          "de": "Teile vermischt",
+          "en": "Parts mixed",
+          "fr": "Eléments mélangés"
+        },
+        {
+          "code": "804",
+          "de": "Verpackung beschädigt",
+          "en": "Packaging damaged",
+          "fr": "Conditionnement endommagé"
+        },
+        {
+          "code": "805",
+          "de": "Verpackungsdokumente fehlen/falsch",
+          "en": "Documents missing/false",
+          "fr": "Document manquant/faux"
+        },
+        {
+          "code": "806",
+          "de": "Nicht nach Spezifikation verpackt",
+          "en": "Not packed to specification",
+          "fr": "Spécifications de conditionnement non respectées"
+        },
+        {
+          "code": "807",
+          "de": "Zu spät geliefert",
+          "en": "Not on time delivery",
+          "fr": "Retard Livraison"
+        },
+        {
+          "code": "808",
+          "de": "FIFO nicht befolgt",
+          "en": "FIFO not adhered",
+          "fr": "FIFO non respecté"
+        },
+        {
+          "code": "809",
+          "de": "Nicht vollständige Bezeichnung der Packung",
+          "en": "Pack-labeling not completed",
+          "fr": "Etiquette incomplète"
+        },
+        {
+          "code": "810",
+          "de": "Fehlende Bezeichnung",
+          "en": "Wrong labeling",
+          "fr": "Mauvais étiquetage"
+        },
+        {
+          "code": "811",
+          "de": "Ursprungslandkennzeichnung fehlt",
+          "en": "Country of origin missing",
+          "fr": "Pays d'origine manquant"
+        },
+        {
+          "code": "812",
+          "de": "Falsche Lieferung",
+          "en": "Wrong delivery",
+          "fr": "Mauvaise livraison"
+        },
+        {
+          "code": "813",
+          "de": "Teile ohne EMPB/PPAP",
+          "en": "Parts without EMPB/ISIR/PPAP",
+          "fr": "Elements sans EMPB/ISIR/PPAP"
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "name": {
+        "de": "Eingehende Ware",
+        "en": "Incoming goods (Transportbedingte Problem)",
+        "fr": "Contrôle réception (Problème de Logistique)"
+      },
+      "defects": [
+        {
+          "code": "900",
+          "de": "Verpackung/Aufmachung falsch",
+          "en": "Packaging wrong",
+          "fr": "Mauvais Conditionnement"
+        },
+        {
+          "code": "901",
+          "de": "Überlieferung",
+          "en": "Over supplied",
+          "fr": "Livraison en exédant"
+        },
+        {
+          "code": "902",
+          "de": "Unterlieferung",
+          "en": "Under supplied",
+          "fr": "Livraison incomplète"
+        },
+        {
+          "code": "903",
+          "de": "Technischer Fehler",
+          "en": "Technical failure",
+          "fr": "Défaut technique"
+        },
+        {
+          "code": "904",
+          "de": "Lieferung zu spät",
+          "en": "Too late supplied",
+          "fr": "Livraison en retard"
+        },
+        {
+          "code": "905",
+          "de": "Lieferung zu früh",
+          "en": "Too early supplied",
+          "fr": "Livraison en avance"
+        },
+        {
+          "code": "906",
+          "de": "Falscher Änderungsstand",
+          "en": "Wrong revision state",
+          "fr": "Erreur d'indice de révision"
+        },
+        {
+          "code": "907",
+          "de": "Teile beschädigt",
+          "en": "Parts damaged",
+          "fr": "Eléments endommagés"
+        },
+        {
+          "code": "908",
+          "de": "Falsche Packmenge",
+          "en": "Wrong packing amount Error on part number between Purchase order and",
+          "fr": "Erreur de quantités emballées"
+        },
+        {
+          "code": "909",
+          "de": "Unterschiedliche Teilenummern bei Bestellung und Lieferschein Unterschiedliche Teilenummern bei",
+          "en": " delivery note",
+          "fr": "Erreur de référence entre la commande et le bon de livraison"
+        },
+        {
+          "code": "910",
+          "de": " Lieferschein und Beschriftung/Etikett",
+          "en": "Error on part number between delivery note and label.",
+          "fr": "Erreur de référence entre le bon de livraison et l'étiquette."
+        },
+        {
+          "code": "911",
+          "de": "Teilenummer fehlt",
+          "en": "Missing part number",
+          "fr": "Manque référence."
+        },
+        {
+          "code": "912",
+          "de": "Falsche Anzahl Teile erhalten",
+          "en": "Issue level received incorrect",
+          "fr": "Indice non-conforme."
+        },
+        {
+          "code": "913",
+          "de": "Inhalt und Bezeichnung stimmen nicht überein",
+          "en": "Error of identification between label and content",
+          "fr": "Erreur d'identification entre l'étiquette et le contenu."
+        },
+        {
+          "code": "914",
+          "de": "Teilenummern durcheinander * Diese Fehler gelten für alle verwendete Teile (z.B. Gehause, Schlauch, clip, Band, … ) For defect specific to components: see Failure catalogue",
+          "en": "Mix of part numbers * This failures agreed for all Parts (f.S. Housing, tube, clip, tape, …) supplier sheet",
+          "fr": "Mélange de références. *Ces défauts sont valables pour toutes les pièces utilisées (Connecteur, gaine, clip, ruban, …) Catalogue à utiliser pour des défauts fournisseurs"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "name": {
+        "de": "Eingehende Ware(Leitungen)",
+        "en": "Incoming goods (Cable)",
+        "fr": "Contrôle réception (Câble)"
+      },
+      "defects": [
+        {
+          "code": "1000",
+          "de": "Leitungen verdreht/verheddert",
+          "en": "Wire tangled",
+          "fr": "fil emmêlé"
+        },
+        {
+          "code": "1001",
+          "de": "Leitung beschädigt",
+          "en": "Wire damaged",
+          "fr": "Fil endommagé"
+        },
+        {
+          "code": "1002",
+          "de": "Kupfer sichtbar",
+          "en": "Copper visible",
+          "fr": "Cuivre apparent"
+        },
+        {
+          "code": "1003",
+          "de": "Kupfer nicht zentriert/mittig",
+          "en": "Copper not centered",
+          "fr": "Cuivre non centré"
+        },
+        {
+          "code": "1004",
+          "de": "Kunststoffisolation aufgebläht, Körnung auf Kunststoff",
+          "en": "Plastic isolation inflated , granular on plastic",
+          "fr": "Isolant boursouflé, granuleux sur plastique"
+        },
+        {
+          "code": "1005",
+          "de": "Länge falsch Markierung fehlend, unleserlich oder falsch,",
+          "en": "Length incorrect",
+          "fr": "Longueur non-conforme"
+        },
+        {
+          "code": "1006",
+          "de": " Farbe fehlerhaft",
+          "en": "Missing marking, ilegible or wrong, color defect",
+          "fr": "Marquage absent, illisible ou erroné, défaut couleur."
+        },
+        {
+          "code": "1007",
+          "de": "Kupfer ist oxidiert",
+          "en": "Copper oxydated",
+          "fr": "Cuivre oxydé."
+        },
+        {
+          "code": "1008",
+          "de": "Probleme beim Abspulen",
+          "en": "Difficult unreeling",
+          "fr": "Débobinage difficile"
+        },
+        {
+          "code": "1009",
+          "de": "Isolation nach Umspritzung beschädigt",
+          "en": "Isolation damaged after overmoulding",
+          "fr": "Isolant détérioré après surmoulage"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "name": {
+        "de": "Eingehende Ware (Stecker)",
+        "en": "Incoming goods (Connections)",
+        "fr": "Contrôle réception (Connexions)"
+      },
+      "defects": [
+        {
+          "code": "1100",
+          "de": "Fehler auf Oberfläche, Verzinnung",
+          "en": "Default of aspect : surface, tinplating",
+          "fr": "Défaut d'aspect : surface, étamage."
+        },
+        {
+          "code": "1101",
+          "de": "Fehler: Risse/Brüche, Kratzer",
+          "en": "Default of aspect : crack , scratch",
+          "fr": "Défaut d'aspect : fissures, rayures"
+        },
+        {
+          "code": "1102",
+          "de": "Verriegelung nicht passend",
+          "en": "Locking side not conform",
+          "fr": "Ergot de verrouillage non-conforme."
+        },
+        {
+          "code": "1103",
+          "de": "Anschluss verbogen/krumm",
+          "en": "Bent connexion",
+          "fr": "Connexion déformée."
+        },
+        {
+          "code": "1104",
+          "de": "Spule verbogen",
+          "en": "Reel bent",
+          "fr": "Rouleau / bobine déformée."
+        },
+        {
+          "code": "1105",
+          "de": "Abmessungen außerhalb der Toleranz",
+          "en": "Dimension out of tolerance",
+          "fr": "Cote hors tolérance."
+        },
+        {
+          "code": "1106",
+          "de": "Abspulrichtung falsch",
+          "en": "Unreeling direction incorrect",
+          "fr": "Inversion sens d'enroulement."
+        },
+        {
+          "code": "1107",
+          "de": "Abspulen schwierig",
+          "en": "Difficult unreeling",
+          "fr": "Difficulté de déroulement."
+        },
+        {
+          "code": "1108",
+          "de": "Problem mit Transportbehälter",
+          "en": "Problem on flask",
+          "fr": "Problème de flasque."
+        },
+        {
+          "code": "1109",
+          "de": "Anschluss bricht beim Crimpen Eingehende Ware (Gehäuse & andere",
+          "en": "Connexion breaking during crimping",
+          "fr": "Connexion cassante lors du sertissage."
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "name": {
+        "de": "",
+        "en": "Incoming goods (Housings and Other Plastic",
+        "fr": "Parts) Contrôle réception (Boîtiers et Autres Pièces Plastiques)"
+      },
+      "defects": [
+        {
+          "code": "1200",
+          "de": "Farbe nicht übereinstimmend",
+          "en": "Colour not conform",
+          "fr": "Couleur non-conforme."
+        },
+        {
+          "code": "1201",
+          "de": "Teile beschädigt/defekt Teile deformiert, Größenordnung außerhalb",
+          "en": "Broken component",
+          "fr": "Composant cassé."
+        },
+        {
+          "code": "1202",
+          "de": " des Toleranzbereichs",
+          "en": "Distorted components , dimension out of tolerance",
+          "fr": "Composant déformé, cote hors tolérance."
+        },
+        {
+          "code": "1203",
+          "de": "Rohmaterial fehlt, Löcher",
+          "en": "Missing raw material, hole",
+          "fr": "Manque matière première, trous."
+        },
+        {
+          "code": "1204",
+          "de": "Formgrate, Materialüberschuss Bauelement fehlt, mangelhafter Zusammenbau,",
+          "en": "Flash , excess of material",
+          "fr": "Excès matière, bavures."
+        },
+        {
+          "code": "1205",
+          "de": " nicht ausreichend",
+          "en": "Missing element , bad assembly , not adequate",
+          "fr": "Elément absent, mauvais assemblage, inadéquat."
+        },
+        {
+          "code": "1206",
+          "de": "Teil bricht bei Montage",
+          "en": "Breaking of part while assembling",
+          "fr": "Casse durant l'assemblage"
+        },
+        {
+          "code": "1207",
+          "de": "Einsetzen des Clips problematisch oder unmöglich",
+          "en": "Difficult or impossible insertion of clip",
+          "fr": "Insertion clip ou languette difficile ou impossible."
+        },
+        {
+          "code": "1208",
+          "de": "Verriegelung fehlerhaft Verschließen der Deckel oder Gegenstücke",
+          "en": "Locking default",
+          "fr": "Défaut de verrouillage."
+        },
+        {
+          "code": "1209",
+          "de": " problematisch oder unmöglich Elektrische Kontrolle/Abdichtung",
+          "en": "Closure of covers or mating part difficult or impossible",
+          "fr": "Fermeture (couvercle, contreparties) difficile ou impossible."
+        },
+        {
+          "code": "1210",
+          "de": " schwierig oder unmöglich schlechte Positionierung oder Rückhaltung der",
+          "en": "Electrical control or bad / impossible waterproofing Bad positioning or bad retention of components",
+          "fr": "Contrôle électrique ou étanchéité difficile ou impossible. with"
+        },
+        {
+          "code": "1211",
+          "de": " Komponenten mit den Gegenstücken",
+          "en": " mating parts",
+          "fr": "Mauvaise position ou rétention des éléments en contact"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "name": {
+        "de": "Eingehende Ware (Kabelschutz)",
+        "en": "Incoming goods (Wire Harness Protections)",
+        "fr": "Contrôle réception (Habillage, Supports)"
+      },
+      "defects": [
+        {
+          "code": "1300",
+          "de": "Rohmaterial fehlt",
+          "en": "Missing raw material",
+          "fr": "Manque matière première"
+        },
+        {
+          "code": "1301",
+          "de": "Optik, porös, Formgrate, Verformungen",
+          "en": "Aspect, burnings, flashes, distortion",
+          "fr": "Aspect, brûlures, bavures, déformations"
+        },
+        {
+          "code": "1302",
+          "de": "Abmaße außerhalb der Toleranz",
+          "en": "Dimension out of tolerance",
+          "fr": "Cote hors tolérance."
+        },
+        {
+          "code": "1303",
+          "de": "Fehlende Kleinbauteile (Muttern, Kabelbinder",
+          "en": "etc.) Missing sub-elements (nut , tie-wrap ...)",
+          "fr": "Manque sous-élément (lanière, écrou...)."
+        },
+        {
+          "code": "1304",
+          "de": "Beschädigter, eingerissener oder zerschnittener",
+          "en": "Schutz Broken , cut or torn protection",
+          "fr": "Protection composant cassé, coupé ou déchiré."
+        },
+        {
+          "code": "1305",
+          "de": "Hülse falsch geschnitten",
+          "en": "Wrong cutting of tube",
+          "fr": "Coupe composant non-conforme."
+        },
+        {
+          "code": "1306",
+          "de": "Schutz bricht während der Beutzung Nutzung der Komponenten ist schwierig",
+          "en": "Breaking of protection during use",
+          "fr": "Casse de la protection durant l'utilisation"
+        },
+        {
+          "code": "1307",
+          "de": " oder unmöglich",
+          "en": "Difficult or impossible use of components",
+          "fr": "Usage du composant difficile ou impossible"
+        },
+        {
+          "code": "1308",
+          "de": "Haftvermögen nicht angemessen Eingehende Ware (Teile zur Leitungsherstellung",
+          "en": "Adhesivity not conform und Incoming goods (Parts for Wires Manufacturing",
+          "fr": "Adhésivité non-conforme. and Contrôle réception (Composants Câbles - pièces"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "name": {
+        "de": "",
+        "en": "",
+        "fr": ""
+      },
+      "defects": [
+        {
+          "code": "1400",
+          "de": "Rohmaterial-Zertifikat nicht korrekt (Kupfer)",
+          "en": "Raw material Certificate not correct (copper)",
+          "fr": "Certificat matière première non-conforme (cuivre)"
+        },
+        {
+          "code": "1401",
+          "de": "Kupfer ist oxidiert",
+          "en": "Oxydated copper",
+          "fr": "Cuivre oxydé."
+        },
+        {
+          "code": "1402",
+          "de": "lose Drahtlitzen (Kupfer)",
+          "en": "Slacking wire strands (copper)",
+          "fr": "Brins de cuivre détendus"
+        },
+        {
+          "code": "1403",
+          "de": "Position/Umkehrung der Spulen auf der Palette Bestätigung der Übereinstimmung nicht korrekt",
+          "en": "Inversion of reels on palett (copper) Certificate of conformity not correct (compound",
+          "fr": "Bobines inversées sur palette (cuivre) for"
+        },
+        {
+          "code": "1404",
+          "de": " (Farbmischung)",
+          "en": " colouring)",
+          "fr": "Certificat de conformité non-conforme"
+        },
+        {
+          "code": "1405",
+          "de": "Falsche Farbe (Farbmischung)",
+          "en": "Wrong colour (compound for colouring)",
+          "fr": "Mauvaise couleur"
+        },
+        {
+          "code": "1406",
+          "de": "Korngrößen nicht korrekt (Farbmischung) Eingehende Ware (andere Teile und",
+          "en": "Granulometry not correct (compound for colouring) Incoming goods (Other components and Electronic",
+          "fr": "Granulométrie non-conforme."
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "name": {
+        "de": "",
+        "en": "",
+        "fr": "Contrôle réception (Autres Composants / Electronique)"
+      },
+      "defects": [
+        {
+          "code": "1500",
+          "de": "Alle Arten von Defekten",
+          "en": "All various defects",
+          "fr": "Autres défauts divers."
+        },
+        {
+          "code": "1501",
+          "de": "Elektronisches Bauteil funktioniert nicht",
+          "en": "Function of electronic component not operating",
+          "fr": "Fonction de composant électronique non assurée."
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "name": {
+        "de": "Eingehende Ware (Verpackung/Aufmachung)",
+        "en": "Incoming goods (Packaging)",
+        "fr": "Contrôle réception (conditionnement)"
+      },
+      "defects": [
+        {
+          "code": "1600",
+          "de": "Falsche Abmessungen",
+          "en": "Wrong dimension",
+          "fr": "Dimension non-conforme."
+        },
+        {
+          "code": "1601",
+          "de": "Fehlerhafte Bedruckung auf der Verpackung",
+          "en": "Bad printing on packaging",
+          "fr": "Impression sur conditionnement non-conforme."
+        },
+        {
+          "code": "1602",
+          "de": "Faltung, Klebung, Verlötung, Klammerung nicht korrekt",
+          "en": "Folding, sticking, soldering, stapling not conform",
+          "fr": "Pliage, collage, soudure, agrafage non-conforme."
+        },
+        {
+          "code": "1603",
+          "de": "Verpackung beschädigt",
+          "en": "Damaged packaging",
+          "fr": "Conditionnement détérioré."
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "name": {
+        "de": "Eingehende Ware (Kabelsatz-Module)",
+        "en": "Incoming goods (Wire Harnesses Modules)",
+        "fr": "Contrôle réception (Faisceaux)"
+      },
+      "defects": [
+        {
+          "code": "1700",
+          "de": "Beschriftungsfehler",
+          "en": "Error of label",
+          "fr": "Erreur d'identification."
+        },
+        {
+          "code": "1701",
+          "de": "Teile durcheinander",
+          "en": "Mixed parts",
+          "fr": "Mélange de références."
+        },
+        {
+          "code": "1702",
+          "de": "Ineinander verwickelte Litzen oder Kabel",
+          "en": "Tangled wires or harnesses",
+          "fr": "Fils / faisceaux emmêlés."
+        },
+        {
+          "code": "1703",
+          "de": "Kunststoffmaterial/Gehäuse fehlt",
+          "en": "Missing plastic material /housing",
+          "fr": "Manque composant sur faisceau."
+        },
+        {
+          "code": "1704",
+          "de": "Falsche Ausrichtung",
+          "en": "Wrong orientation",
+          "fr": "Mauvaise orientation / Géométrie du faisceau non-conforme."
+        },
+        {
+          "code": "1705",
+          "de": "Anschluss aus dem Gehäuse gerissen",
+          "en": "Connection out of housing",
+          "fr": "Absence verrouillage du contact dans son boîtier."
+        },
+        {
+          "code": "1706",
+          "de": "Isolierung an Leitung beschädigt",
+          "en": "Damaged isolation on wire",
+          "fr": "Isolant endommagé sur le fil."
+        },
+        {
+          "code": "1707",
+          "de": "Falsche Lage",
+          "en": "Error of position",
+          "fr": "Erreur de position"
+        },
+        {
+          "code": "1708",
+          "de": "Schlinge im Kabel",
+          "en": "Loop on the cable",
+          "fr": "Noeud sur le câble."
+        },
+        {
+          "code": "1709",
+          "de": "Dichtung beschädigt",
+          "en": "Damaged seal",
+          "fr": "Joint détérioré."
+        },
+        {
+          "code": "1710",
+          "de": "Flachstecker beschädigt",
+          "en": "Damaged terminal",
+          "fr": "Connexions déformées."
+        },
+        {
+          "code": "1711",
+          "de": "Dichtung fehlt",
+          "en": "Missing seal",
+          "fr": "Joint manquant."
+        },
+        {
+          "code": "1712",
+          "de": "Abisolierung fehlt",
+          "en": "Missing stripping",
+          "fr": "Dénudage absent."
+        },
+        {
+          "code": "1713",
+          "de": "Bänder fehlen/Bandierung fehlt",
+          "en": "Missing taping",
+          "fr": "Enrubannage manquant."
+        },
+        {
+          "code": "1714",
+          "de": "Schlauch an Kabelbaum fehlt",
+          "en": "Missing tube on harness",
+          "fr": "Gaine manquante sur faisceau."
+        },
+        {
+          "code": "1715",
+          "de": "Schwierigkeiten mit Anschlüssen",
+          "en": "Problem of connection",
+          "fr": "Problème de connexion / Continuité faisceau non assurée."
+        },
+        {
+          "code": "1716",
+          "de": "Dichtung in Fehlposition",
+          "en": "Seal out of position",
+          "fr": "Position joint non-conforme."
+        },
+        {
+          "code": "1717",
+          "de": "Sekundärverriegelung am Gehäuse beschädigt",
+          "en": "Secondary lock of housing damaged",
+          "fr": "Verrouillage secondaire sur boîtier non-conforme."
+        },
+        {
+          "code": "1718",
+          "de": "Kontakt von der Leitung getrennt",
+          "en": "Terminal out of wire",
+          "fr": "Fil arraché de la connexion."
+        },
+        {
+          "code": "1719",
+          "de": "Leitung in falsche Kontaktkammer gesteckt",
+          "en": "Wire inserted in wrong connector cavity",
+          "fr": "Fil inseré dans une mauvaise cavité du connecteur /"
+        },
+        {
+          "code": "1720",
+          "de": "Falsche Crimpung",
+          "en": "Wrong crimping",
+          "fr": "Mauvais Sertissage"
+        },
+        {
+          "code": "1721",
+          "de": "Inkorrekte Länge der Äste",
+          "en": "Incorrect length of branches",
+          "fr": "Longueur branche non-conforme."
+        }
+      ]
+    }
+  ]
+}
